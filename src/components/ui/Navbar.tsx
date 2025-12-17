@@ -13,7 +13,7 @@ const navItems = [
     href: "#",
     submenu: [
       { name: "Our Story", href: "/about/story" },
-      { name: "Our Advantage", href: "/advantage" },
+      { name: "Our Advantage", href: "/about/advantage" },
       { 
         name: "Financial Reports", 
         href: "/about/financials",

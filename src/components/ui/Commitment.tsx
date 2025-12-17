@@ -111,7 +111,7 @@ const Commitment = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="mt-6 pointer-events-auto"
               >
-                <Link href="/advantage">
+                <Link href="/about/advantage">
                   <button className="group relative flex items-center gap-4 px-6 py-3 bg-red-600 text-white font-oswald uppercase tracking-widest text-base hover:bg-red-700 transition-all overflow-hidden -skew-x-10 border border-red-500 shadow-[0_0_15px_rgba(220,38,38,0.5)] cursor-pointer">
                     <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-[shimmer_1s_infinite]" />
                     <span className="skew-x-10 inline-block">See Our Advantage</span>
