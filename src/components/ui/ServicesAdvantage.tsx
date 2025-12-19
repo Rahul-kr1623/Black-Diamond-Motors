@@ -57,25 +57,25 @@ const advantages = [
     id: 1, 
     title: "Quality Assurance", 
     desc: "Ensuring Consistent Quality: Black Diamond Motors' Quality Assurance",
-    link: "/advantage#quality"  // ✅ Corrected Link
+    link: "/about/advantage#quality"  // ✅ Corrected Link
   },
   { 
     id: 2, 
     title: "Highest Resale", 
     desc: "Unmatched Durability and Resale Value: Black Diamond Motors Sets the Standard",
-    link: "/advantage#resale"   // ✅ Corrected Link
+    link: "/about/advantage#resale"   // ✅ Corrected Link
   },
   { 
     id: 3, 
     title: "Design Strength", 
     desc: "Unleashing Design Strength: Black Diamond Motors' Innovative Solutions",
-    link: "/advantage#design"   // ✅ Corrected Link
+    link: "/about/advantage#design"   // ✅ Corrected Link
   },
   { 
     id: 4, 
     title: "Express Delivery", 
     desc: "Swift and Efficient: Black Diamond Motors' Express Delivery Service",
-    link: "/advantage#express"  // ✅ Corrected Link
+    link: "/about/advantage#express"  // ✅ Corrected Link
   },
 ];
 

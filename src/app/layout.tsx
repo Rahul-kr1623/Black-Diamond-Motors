@@ -3,7 +3,9 @@ import { Oswald, Roboto } from "next/font/google"; // Fonts import
 import "./globals.css";
 import Navbar from "@/components/ui/Navbar"; // ✅ Navbar Import
 import Footer from "@/components/ui/Footer"; // ✅ Footer Import
+import ScrollToTop from "@/components/ui/ScrollToTop"; // ✅ NEW: Scroll Button Import
 
+// --- FONT CONFIGURATION ---
 const oswald = Oswald({ 
   subsets: ["latin"], 
   variable: "--font-oswald",
@@ -18,7 +20,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Black Diamond Motors",
-  description: "Revolutionizing Transport Solutions",
+  description: "Revolutionizing Transport Solutions | India's Leading Trailer Manufacturer",
 };
 
 export default function RootLayout({
@@ -28,13 +30,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${oswald.variable} ${roboto.variable} bg-black text-white antialiased`}>
+      <body className={`${oswald.variable} ${roboto.variable} bg-[#050505] text-white antialiased`}>
         
-        <Navbar /> {/* ✅ Navbar Top par */}
+        {/* Top Navigation */}
+        <Navbar />
         
-        {children} {/* Yahan beech mein pages (Home, About, etc.) aayenge */}
+        {/* Main Page Content */}
+        {children}
         
-        <Footer /> {/* ✅ Footer Bottom par */}
+        {/* Bottom Footer */}
+        <Footer />
+        
+        {/* Floating Scroll to Top Button */}
+        <ScrollToTop />
         
       </body>
     </html>

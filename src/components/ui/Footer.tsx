@@ -197,11 +197,12 @@ const Footer = () => {
               <ul className="grid grid-cols-2 gap-y-4 gap-x-8 text-sm">
                 {[
                   { name: "Home", href: "/" },
-                  { name: "About Us", href: "/about" },
-                  { name: "Products", href: "/products" },
-                  { name: "Services", href: "/services" },
+                  // ✅ FIXED: Pointing to specific sub-pages
+                  { name: "Our Story", href: "/about/story" }, 
+                  { name: "Products", href: "/products/tip-trailer" }, 
+                  { name: "Services", href: "/services/after-sales" }, 
                   { name: "Contact Us", href: "/contact" },
-                  { name: "Privacy Policy", href: "/privacy" },
+                  { name: "Privacy Policy", href: "/privacy" }, // You might need to create this later
                 ].map((item) => (
                   <li key={item.name}>
                     <Link
