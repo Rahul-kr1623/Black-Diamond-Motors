@@ -11,7 +11,7 @@ This repository contains a **cloned and restructured** version of the Black Diam
 ## 🚀 Live Demo
 
 **Experience the live application here:**
-👉 **[https://blackdiamondmotorsresteuctured.vercel.app/](https://blackdiamondmotorsresteuctured.vercel.app/)**
+👉 **[https://blackdiamondmotorsresteuctured.vercel.app/](https://blackdiamondmotors.vercel.app/)**
 
 ---
 
